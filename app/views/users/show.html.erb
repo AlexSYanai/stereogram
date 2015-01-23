@@ -17,7 +17,7 @@
   <li><%= @user.full_name %></li>
 
   <li>
-  <%= @user.followers.count %>
+  <div class="follow-count"><%= @user.followers.count %></div>
   <%= link_to "Followers", followers_user_path(@user) %>
   </li>
 
@@ -38,4 +38,3 @@
     <%= render :partial => 'snippets/snippet', :locals => {:snippet => snippet} %>
   <% end %>
 </div>
-
