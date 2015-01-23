@@ -1,5 +1,0 @@
-<%= form_for current_user.follows.find_by_followed_id(@user),
-                             :html => { :method => :delete },
-                              :remote => true  do |f| %>
-  <button><%= f.submit "Unfollow" %></button>
-<% end %>
