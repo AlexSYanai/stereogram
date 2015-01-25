@@ -67,9 +67,8 @@ Tag reviewers whenever putting in pull request and be sure to merge into develop
 - Autoshare: snippets are automatically shared to the user's Facebook feed
 - Guest view of snippets
 
-###Known Issues (1/23/15)
+###Known Issues (1/24/15)
 - Player artwork animation is off-center in some browsers
-- Recently removed unfollowing for demo purposes and will soon reimplement
 
 ###Future Plans
 - Add additional social networks to share snippets to
