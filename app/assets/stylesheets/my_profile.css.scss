@@ -24,7 +24,7 @@ img.connect{
 }
 
 img.follow{
- position: relative;
+  position: relative;
   margin-top: 13%;
   height: 159px;
   top: 35px;
@@ -32,7 +32,7 @@ img.follow{
 }
 
 img.unfollow{
- position: relative;
+  position: relative;
   margin-top: 13%;
   height: 159px;
   top: 35px;
@@ -40,9 +40,9 @@ img.unfollow{
 }
 
 .username{
- left: 3%;
- top: 3%;
- position: absolute;
+  left: 3%;
+  top: 3%;
+  position: absolute;
 }
 
 
@@ -71,4 +71,8 @@ img.profile_image{
 
 .followers-audio:hover p{
   color: black;
+}
+
+.follow-count{
+  display:inline;
 }
