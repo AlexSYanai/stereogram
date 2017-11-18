@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :follow do
     follower_id rand(1..50)
     followed_id rand(51..101)

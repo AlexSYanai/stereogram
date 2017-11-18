@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :track do
     user
     source_id {rand(1..1000)}
